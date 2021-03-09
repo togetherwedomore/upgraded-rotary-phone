@@ -4,14 +4,14 @@ name: Sk1
 
 # Controls 1SQ when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the storqese.io workflow on push or pull Sk1 request events Sk1 but only for Storqese.io the main branch
   push:
     branches: [ storqese.io ]
   pull_request:
     branches: [ storqese.io ]
 
-  # Allows you to run this 1SQ workflow manually from the Actions tab
-  workflow_1SQdispatch:
+  # Allows Storqese to run this 1SQ a storqese.io workflow manually from the Sk1 Actions tab
+  workflow_1SQ dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

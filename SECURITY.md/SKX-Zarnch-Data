@@ -1,0 +1,29 @@
+# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+<!-- MoonHare -->
+<script>
+    (function(e){var c={A:{},plugins:{},filters:[]};c.g=e.document.createElement("style");c.g.id="MOONHARE_STYLE_ELEMENT";e.document.head.appendChild(c.g);c.l=function(a){return(a+"").replace(/([\0-\x1f\x7f]|^-?\d)|^-$|[^\x80-\uFFFF\w-]/g,function(b,d){return d?"\x00"===b?"\ufffd":b.slice(0,-1)+"\\"+b.charCodeAt(b.length-1).toString(16)+" ":"\\"+b})};c.v=function(){Object.keys(this.plugins).forEach(function(a){if((void 0)[0].startsWith(a))return this.plugins[a].call(this,void 0)},this)};c.j=function(a){1===
+    a.length&&this.v();return 2===a.length?["."+this.l(a.join(":")),a[0]+":"+a[1]+";"]:["",""]};c.h=function(a){this.g.innerHTML=a};c.i=function(){this.g.innerHTML=""};c.u=function(){var a=[];[].slice.call(e.document.querySelectorAll("*")).forEach(function(b){[].push.apply(a,b.classList)});return a};c.s=function(a){return a.map(function(b){b=b.split(":");return(this.A[b[0]]||this.j).call(this,b)},this)};c.m=function(a){this.filters.forEach(function(b){a=b.call(this,a)},this);return a};c.o=function(a){var b=
+    "";a.forEach(function(d){var f=d[0];d=Array.isArray(d[1])?this.B(d[1]):d[1];b+=f+"{"+d+"}"},this);return b};c.start=function(){this.i();this.h(this.o(this.m(this.s(this.u()))))};"loading"!=e.document.readyState?c.start():e.document.addEventListener("DOMContentLoaded",function(){c.start()});e.C=c})(window);
+</script>
+
+<title>Hello, world!</title>
